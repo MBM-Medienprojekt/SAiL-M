@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  expectedValue: 1.5
+  cause: MyString
+  rewritingStepNo: 1
+  description: MyString
+  hint: MyString
+  hintRead: false
+  assessmentEventId: 1
+
+two:
+  expectedValue: 1.5
+  cause: MyString
+  rewritingStepNo: 1
+  description: MyString
+  hint: MyString
+  hintRead: false
+  assessmentEventId: 1

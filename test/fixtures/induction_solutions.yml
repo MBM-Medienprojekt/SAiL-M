@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  assumptionId: 1
+  statementLeftSide: MyString
+  basisStartingValue: MyString
+  exerciseName: MyString
+  basisVariableName: MyString
+  statementRightSide: MyString
+
+two:
+  assumptionId: 1
+  statementLeftSide: MyString
+  basisStartingValue: MyString
+  exerciseName: MyString
+  basisVariableName: MyString
+  statementRightSide: MyString

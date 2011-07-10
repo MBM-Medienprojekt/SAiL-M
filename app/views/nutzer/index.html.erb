@@ -1,0 +1,5 @@
+<h1>Alle Nutzer</h1>
+
+<% @nutzer.each do |nutzer| %>
+  <%= link_to(h(nutzer.name), :action => 'show', :id => nutzer) %><br/>
+<% end%>

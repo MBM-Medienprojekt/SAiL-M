@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  addressee: MyString
+  date: 2011-06-24
+  message: MyString
+  sessionId: MyString
+  time: 2011-06-24 21:24:41
+  inductionSolutionId: 1
+
+two:
+  addressee: MyString
+  date: 2011-06-24
+  message: MyString
+  sessionId: MyString
+  time: 2011-06-24 21:24:41
+  inductionSolutionId: 1

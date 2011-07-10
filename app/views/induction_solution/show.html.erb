@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+       "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Show.html Induction Solution</title>
+
+<%= stylesheet_link_tag "StyleSheet" %>
+</head>
+<body>
+
+  <table widht="100%" border="0">
+    <tr>
+      <td>Navigation: </td>
+      <td>
+ <%= button_to "Startseite -->", :controller => "startseite", :action => "index", id => "id" %>
+      </td>
+      <td>--></td>
+      <td>
+ <%= button_to "Liste aller Nutzer", :controller => "anzeige", :action => "index", id => "id" %>
+      </td>
+      <td>--></td>
+      <td><%= button_to "Informationen zu Nutzer" %></td>
+      <td>--></td>
+      <td><%= button_to "Induction Solution" %></td>
+    </tr>
+</table>
+
+
+
+
+  <h1>Induction Solution ID: <%=  @induction_solution.id %></h1>
+
+
+
+<table width="50%" border="1">
+  <tr>
+    <td>ID</td>
+    <td>Statement Left Side</td>
+    <td>Execise Name</td>
+    <td>Statement Right Side</td>
+  </tr>
+  <tr>
+    <td><%= @induction_solution.id %></td>
+    <td><%= @induction_solution.statementLeftSide %></td>
+    <td><%= @induction_solution.exerciseName %></td>
+    <td><%= @induction_solution.statementRightSide %></td>
+
+  </tr>
+</table>
+
+ 
+
+
+
+
+
+
+
+</body>
+</html>

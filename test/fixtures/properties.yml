@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  propertyValue: MyString
+  propertyKey: MyString
+  interactionEventId: 1
+
+two:
+  propertyValue: MyString
+  propertyKey: MyString
+  interactionEventId: 1

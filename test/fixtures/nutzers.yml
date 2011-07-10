@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  geburtstag: 
+  wohnort: MyString
+  hobby: MyString
+
+two:
+  name: MyString
+  geburtstag: 
+  wohnort: MyString
+  hobby: MyString

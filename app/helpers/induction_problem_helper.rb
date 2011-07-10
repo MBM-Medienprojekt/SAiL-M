@@ -1,0 +1,2 @@
+module InductionProblemHelper
+end
